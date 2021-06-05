@@ -1,0 +1,179 @@
+/* ************************************************************************************ */
+/* index and common */
+/* ************************************************************************************ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: #7d9eb8;
+}
+.logoEng {
+  margin-top: 1rem;
+  width: 30rem;
+  margin-right: auto;
+  display: block;
+}
+.logoArb {
+  width: 32rem;
+  display: block;
+  margin-left: auto;
+}
+
+.shirts {
+  width: 32rem;
+  margin-top: 15rem;
+  position: relative;
+}
+.lap {
+  width: 32rem;
+  margin-top: 14rem;
+}
+.bag {
+  width: 32rem;
+  margin-top: 14.5rem;
+  margin-left: -3rem;
+  position: relative;
+}
+
+.arabic {
+  margin-top: 3rem;
+  margin-bottom: -12rem;
+  text-shadow: 1px 1px #ffffff;
+}
+
+/* whatsApp button */
+.float {
+  position: fixed;
+  width: 5rem;
+  height: 5rem;
+  bottom: 8rem;
+  right: 4rem;
+  margin-bottom: -1rem;
+  color: #ffffff;
+  background-color: rgb(153, 223, 170);
+  border-radius: 5rem;
+  text-align: center;
+  font-size: 3rem;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 1.1rem;
+}
+.float:hover {
+  background-color: #25d366;
+  color: rgb(255, 255, 255);
+}
+
+/* Media Queries */
+/* ----------------------------------------------------------------------------------------------------------------------- */
+/* media  for small mobile */
+@media only screen and (min-width: 200px) and (max-width: 350px) {
+  html {
+    font-size: 70%;
+  }
+  .arabic {
+    margin-top: 0.5rem;
+  }
+  .logoArb {
+    margin-top: -1rem;
+  }
+
+  .shirts {
+    display: none;
+  }
+  .lap {
+    display: none;
+  }
+  .bag {
+    width: 90%;
+    display: block;
+    margin: 10rem auto;
+  }
+  .float {
+    width: 90%;
+    display: block;
+    margin: -5rem -2.5rem;
+  }
+}
+/* media  for mobile */
+@media only screen and (min-width: 350px) and (max-width: 767px) {
+  .arabic {
+    margin-top: 0.5rem;
+  }
+  .logoArb {
+    margin-top: 0.5rem;
+    width: 70%;
+  }
+  .logoEng {
+    width: 60%;
+  }
+  .shirts {
+    display: none;
+  }
+  .lap {
+    display: none;
+  }
+  .bag {
+    width: 90%;
+    display: block;
+    margin: 9rem auto;
+  }
+  .float {
+    width: 90%;
+    display: block;
+    margin: -5rem -2.5rem;
+  }
+}
+/* media  for tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .arabic {
+    margin-top: 15rem;
+  }
+  .logoEng {
+    width: 20rem;
+  }
+  .logoArb {
+    width: 20rem;
+  }
+
+  .shirts {
+    width: 32rem;
+    margin-top: 15rem;
+    margin-left: 2rem;
+    position: relative;
+  }
+  .lap {
+    width: 32rem;
+    margin-top: 15rem;
+  }
+  .bag {
+    width: 32rem;
+    margin-top: 15rem;
+    margin-left: -2rem;
+    position: relative;
+  }
+}
+/* media for big screens */
+@media only screen and (min-width: 1500px) and (max-width: 3000px) {
+  .shirts {
+    width: 32rem;
+    margin-top: 11rem;
+    margin-left: 3rem;
+    position: relative;
+  }
+  .lap {
+    width: 32rem;
+    margin-top: 11rem;
+  }
+  .bag {
+    width: 32rem;
+    margin-top: 11rem;
+    margin-left: -3rem;
+    position: relative;
+  }
+}
